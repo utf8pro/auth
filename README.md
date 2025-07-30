@@ -1,15 +1,12 @@
 # @utf8pro/auth
 
-To install dependencies:
+Authentication package. 
 
+## Features
+- createToken - to create a new account token.
+- authMiddleware - to verify authenticated requests.
+
+## Installation
 ```bash
-bun install
+bun add @utf8pro/auth
 ```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.19. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
